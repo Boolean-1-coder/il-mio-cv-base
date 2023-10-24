@@ -1,8 +1,14 @@
+/* 
+    LE REGOLE CSS SONO GIA' ORDINATE IN BASE ALLA PRIORITA', dalla più bassa alla più alta.
+    * > SELETTORE TAG > SELETTORE CLASSI > SELETTORE ID
+*/
+
 /* RESET CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
 }
 
 /* SELEZIONE TRAMITE TAG */
@@ -34,6 +40,7 @@ hr {
 
 p {
     margin: 0px 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 hr {
