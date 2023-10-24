@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Il mio CV</title>
+
+    <!-- IMPORTANTE RICORDARSI DI COLLEGARE IL FOGLIO DI STILE
+    ALLA PAGINA HTML. Altrimenti lo stile non verrà applicato! -->
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
 
     <!-- Header del mio cv, foto + nome -->
     <header>
-        <img src="./img/profile.png" alt="Mia foto profilo CV">
-        <h1> Pinco Pallino - Web Developer</h1>
+        <div class="bg-grey text-center">
+            <img id="main-cv-photo" src="./img/profile.png" alt="Mia foto profilo CV">
+            <h1 class="pb-10">Pinco Pallino - Web Developer</h1>
+        </div>
     </header>
 
     <!-- corpo della pagina -->
